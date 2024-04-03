@@ -1,0 +1,12 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: redispw
+    database: 0
+    jedis:
+      pool:
+        min-idle: 0
+        max-idle: 8
+        max-active: 8
+    connect-timeout: 30000ms
